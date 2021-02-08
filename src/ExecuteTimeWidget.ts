@@ -179,14 +179,14 @@ export default class ExecuteTimeWidget extends Widget {
 
       let msg = '';
       if (endTime) {
-        msg = `Last executed at ${getTimeString(endTime)} in ${getTimeDiff(
+        msg = `${getTimeString(endTime)} | ${getTimeDiff(
           endTime,
           startTime
         )}`;
       } else if (startTime) {
-        msg = `Execution started at ${getTimeString(startTime)}`;
+        msg = `[Started] ${getTimeString(startTime)}`;
       } else if (queuedTime) {
-        msg = `Execution queued at ${getTimeString(queuedTime)}`;
+        msg = `[Queued] ${getTimeString(queuedTime)}`;
       }
       if (executionTimeNode.innerText !== msg) {
         executionTimeNode.innerText = msg;
