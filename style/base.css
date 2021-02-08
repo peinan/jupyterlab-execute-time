@@ -10,13 +10,12 @@
 
 .execute-time {
   background-color: var(--jp-cell-editor-background);
-  color: var(--jp-mirror-editor-variable-color);
+  color: var(--jp-inverse-layout-color3);
   display: block;
-  margin-top: 2px;
+  margin: 2px 0 1px;
   font-family: monospace;
-  font-size: 80%;
-  border-top: 1px solid #cfcfcf;
-  padding: 0 2px;
+  font-size: 85%;
+  padding: 0 5px;
 }
 
 .execute-time.execute-time-positioning-left {
