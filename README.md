@@ -1,11 +1,17 @@
-# jupyterlab-execute-time
+# jupyterlab-execute-time (Simple Style Version)
 
 [![PyPI version][pypi-image]][pypi-url] [![PyPI DM][pypi-dm-image]][pypi-url]
 [![Github Actions Status][github-status-image]][github-status-url] [![Binder][binder-image]][binder-url]
 
 Display cell timings in Jupyter Lab
 
-![Execute Time Screenshot](https://github.com/deshaw/jupyterlab-execute-time/blob/master/docs/execute-time-screenshot.png?raw=true)
+<table>
+
+<tr><td>Original</td><td>Modified</td></tr>
+<tr><td><img width="312" alt="ss 2021-02-08 15 34 39" src="https://user-images.githubusercontent.com/5601012/107184215-82746d80-6a23-11eb-8c01-36b480518002.png"></td>
+<td><img width="262" alt="ss 2021-02-08 15 32 39" src="https://user-images.githubusercontent.com/5601012/107184226-84d6c780-6a23-11eb-9cef-92bd4660c5b4.png"></td></tr>
+
+</table>
 
 This is inspired by the notebook version [here](https://github.com/ipython-contrib/jupyter_contrib_nbextensions/blob/master/src/jupyter_contrib_nbextensions/nbextensions/execute_time).
 
@@ -17,16 +23,8 @@ Note: for this to show anything, you need to enable cell timing in the notebook 
 
 ## Install
 
-To install this package with [`pip`](https://pip.pypa.io/en/stable/) run
-
 ```bash
-pip install jupyterlab_execute_time
-```
-
-To install this package with [`conda`](https://docs.conda.io/en/latest/) run
-
-```bash
-conda install -c conda-forge jupyterlab_execute_time 
+pip install git+https://github.com/peinan/jupyterlab-execute-time
 ```
 
 ## Contributing
